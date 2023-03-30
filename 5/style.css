@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor_degrade: linear-gradient(to right, #add8d7 ,#159895, #185554);
+}
+
+.container{
+    background-image: var(--cor_degrade);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_titulo{
+    text-transform: uppercase;
+    margin: 1.5rem;
+}
+
+.container_input-txt{
+    margin-bottom: 0.6rem;
+}
+
+.btn_converter{
+    margin-top: 0.4rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    color: var(--cor_degrade);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn_converter:hover{
+    color: linear-gradient(to right, #add8d7 ,#159895, #185554);
+    background-color: transparent;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+
+.input_texto{
+    padding: 0.2rem 2rem;
+}
+
+.texto_convertido{
+    margin: 1rem;
+    text-decoration: underline;
+}
