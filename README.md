@@ -15,7 +15,7 @@ Esse projeto possui 4 páginas:
 
 1° - O usuário entra com um valor e ocorre a verificação se o número digitado existe ou não na sequência de Fibonacci.
 
-2° - O site requisita uma API e no retorno pega quais são os dias com o menorfaturamento, maior faturamento e o número de dias que o faturamento diário é superior a média mensal.
+2° - O site requisita uma API e no retorno pega quais são os dias com o menor faturamento, maior faturamento e o número de dias que o faturamento diário é superior a média mensal.
 
 3° - O site calcula o percentual de representação de cada estado no total mensal de uma distribuidora.
 
